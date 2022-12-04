@@ -1,0 +1,4 @@
+* text=auto
+
+# markdown reconhecíveis
+*.md text linguist-detectable
