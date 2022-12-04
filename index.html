@@ -42,6 +42,18 @@
 
                 <span class="num equal" onclick="document.calc.txt.value = eval(calc.txt.value)">=</span>
             </form>
-        </div>    
+        </div>
+
+        <!-- scripts -->
+        <script type="text/javascript" src="js/tilt.js"></script>
+
+        <script type="text/javascript">
+            VanillaTilt.init(document.querySelector(".container"), {
+                max: 2,
+                speed: 200,
+                glare: true,
+                "max-glare": 0.2,
+            });
+        </script>
     </body>
 </html>
