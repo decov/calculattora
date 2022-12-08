@@ -33,6 +33,13 @@ body {
 
     background-color: #111;
     color: #eee;
+
+    transition: .25s;
+}
+
+.grid-container > button:hover {
+    color: #111;
+    background-color: #eee;
 }
 
 .grid-container > .operator {
